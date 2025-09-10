@@ -18,6 +18,6 @@ with st.sidebar:
                  label = "![Linkedin_Icon](https://img.icons8.com/color/48/linkedin.png) LinkedIn")
     st.page_link("https://github.com/Jayanth-Shanmugam", 
                  label = "![github_Icon](https://img.icons8.com/fluency/96/github.png) Github")
-    st.page_link("Home.py", label = "jmallasa@buffalo.edu", icon=":material/mail:", disabled=True)
+    st.page_link("Home.py", label = "jayanth.mks@gmail.com", icon=":material/mail:", disabled=True)
 
 pdf_viewer("misc/Jayanth-Resume.pdf")
