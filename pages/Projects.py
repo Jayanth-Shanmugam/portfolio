@@ -37,6 +37,7 @@ with st.expander(":material/description: **Research Paper Recommendation System*
     working in related or complementary fields.
     """
     )
+    st.video("demos/papersphere-demo.mp4")
 
 with st.expander(":material/cognition_2: **Genius Kitchen**"):
     st.write(
