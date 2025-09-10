@@ -1,8 +1,5 @@
 import streamlit as st
 
-# Logo to go beside sidebar navigation button
-st.logo(image="images/sidebar-logo.png", icon_image="images/menu_icon.png", size="large")
-
 with st.sidebar:
     # Website navigation
     st.page_link("Home.py", label = "Home", icon=":material/home:")
