@@ -23,7 +23,7 @@ st.header("My Projects")
 
 st.divider()
 
-with st.expander(":material/description: **Research Paper Recommendation System**"):
+with st.expander(":material/description: **Research Paper Recommendation System**", expanded=True):
     st.write(
     """
     Our project tackles a common challenge that many students face - the overwhelming task of finding relevant research papers that match their interests. 
@@ -39,7 +39,7 @@ with st.expander(":material/description: **Research Paper Recommendation System*
     )
     st.video("demos/papersphere-demo.mp4")
 
-with st.expander(":material/cognition_2: **Genius Kitchen**"):
+with st.expander(":material/cognition_2: **Genius Kitchen**", expanded=True):
     st.write(
     """
     For this project, we secured a top 10 placement among 30,000 competitors in the Google GenAI Hackathon APAC Edition. This achievement reflected 
@@ -54,7 +54,7 @@ with st.expander(":material/cognition_2: **Genius Kitchen**"):
     )
     st.image("images/ GenAI-Hackathon-Pic.png")
 
-with st.expander(":material/newspaper: **Newsly.ai**"):
+with st.expander(":material/newspaper: **Newsly.ai**", expanded=True):
     st.write(
         """
         Newsly.ai was an internal tool that our team at Adani Wilmar developed to improve the productivity of employees in the sales department.
