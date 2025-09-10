@@ -51,7 +51,7 @@ with st.expander(":material/cognition_2: **Genius Kitchen**"):
     [LinkedIn Post](https://www.linkedin.com/posts/hack2skill_glimpses-of-top-10-finalists-activity-7193182294214385664-zdEA?utm_source=share&utm_medium=member_desktop)
     """
     )
-    st.image("images/GenAI-Hackathon-Pic.png")
+    st.image("images/ GenAI-Hackathon-Pic.png")
 
 with st.expander(":material/newspaper: **Newsly.ai**"):
     st.write(
