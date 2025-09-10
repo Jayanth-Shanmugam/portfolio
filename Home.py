@@ -3,6 +3,8 @@ import streamlit as st
 # Have the sidebar collapsed when site is visited first
 st.set_page_config(initial_sidebar_state="collapsed")
 
+st.logo(icon_image="images/menu_icon.png", size="large")
+
 with st.sidebar:
     # Website navigation
     st.page_link("Home.py", label = "Home", icon=":material/home:")
