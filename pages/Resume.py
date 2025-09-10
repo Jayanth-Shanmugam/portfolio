@@ -17,4 +17,4 @@ with st.sidebar:
                  label = "![github_Icon](https://img.icons8.com/fluency/96/github.png) Github")
     st.page_link("Home.py", label = "jayanth.mks@gmail.com", icon=":material/mail:", disabled=True)
 
-pdf_viewer("misc/Jayanth-Resume.pdf")
+pdf_viewer("misc/Jayanth_Shanmugam_Resume.pdf")
