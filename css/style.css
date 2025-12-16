@@ -192,7 +192,8 @@ h2 {
     opacity: 1;
 }
 
-.project-links a {
+.project-links a,
+.project-links a:visited {
     color: var(--text-primary);
     text-decoration: none;
 }
