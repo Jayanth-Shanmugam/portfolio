@@ -192,6 +192,11 @@ h2 {
     opacity: 1;
 }
 
+.project-links a {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
 .project-item,
 .blog-item {
     margin-bottom: 60px;
