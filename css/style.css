@@ -192,10 +192,17 @@ h2 {
     opacity: 1;
 }
 
-a,
-a:visited {
-    color: var(--text-primary);
-    text-decoration: none;
+/* Project link styling */
+.project-link,
+.project-link:visited {
+    color: inherit;          /* use surrounding text color */
+    text-decoration: none;   /* remove underline */
+    cursor: pointer;
+    transition: color 0.3s, opacity 0.3s;
+}
+
+.project-link:hover {
+    color: var(--text-primary);     /* or var(--text-primary) if preferred */
 }
 
 .project-item,
