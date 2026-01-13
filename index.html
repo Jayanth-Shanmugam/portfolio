@@ -174,6 +174,29 @@
                         </span>
                     </p>
                 </div>
+                <div class="project-item">
+                    <h3>
+                        <a href="https://github.com/Jayanth-Shanmugam/cdc"
+                           class="project-link"
+                        >    
+                        PostgreSQL --> Iceberg CDC Pipeline
+                        </a>
+                    </h3>
+                    <p class="project-description">
+                        This project is a simple Change Data Capture (CDC) pipline from PostgreSQL
+                        to Apache Iceberg using RabbitMQ as the message queue to handle the WAL changes.
+                        It uses the wal2json plugin for PostgreSQL to convert binary WAL data to JSON and 
+                        a custom Python script to stream these changes to RabbitMQ using pyscopg2 library.
+                        On the consumer side, the script read incoming changes from RabbitMQ and applied them
+                        to an Apache Iceberg table. I developed this project to mimic a CDC pipeline in typical lakehouse 
+                        architecture.
+                    </p>
+                    <p class="project-tech">
+                        <span class="tag">
+                            Python • PostgreSQL • RabbitMQ • Apache Iceberg
+                        </span>
+                    </p>
+                </div>
             </section>
 
             <section id="blog" class="section">
